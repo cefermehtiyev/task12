@@ -1,4 +1,15 @@
+GET  http://steam.com/v1/games
 
+POST  http://steam.com/v1/games/{id}
+
+DELETE  http://steam.com/v1/games/{id}
+
+
+POST  http://steam.com/v1/games/{id}/reviews
+
+GET  http://steam.com/v1/games/{id}/reviews
+
+GET  http://steam.com/v1/games/{id}?status=ACTIVE
 
 
 
